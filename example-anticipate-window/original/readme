@@ -1,0 +1,7 @@
+
+the example client and server with the original github.com/pin/tftp
+
+  clt.go  -- client
+  svr.go  -- server
+
+

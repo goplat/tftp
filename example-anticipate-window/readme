@@ -1,0 +1,8 @@
+
+the example server and client with new anticipate feature.
+
+  clt.go  -- the client
+  svr.go  -- the server
+
+
+
