@@ -62,6 +62,17 @@ when s.SetAnticipate(true):   window   speed
     8    13M
     16   14.5M
     32   16.5M
-when blksize is 1440
+when blksize is 1440 or buffer size 1444:
     16    38M
 */
+/*
+fast ethernet blksize 1472-4:
+    none  2.3M
+     2    4.4M
+     4    6.5M
+     8    8.2M
+     16   9.2M
+     32   10M
+     60   10.3M
+ */
+
