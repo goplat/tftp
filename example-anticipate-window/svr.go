@@ -47,7 +47,7 @@ func main() {
 	// use nil in place of handler to disable read or write operations
 	s := tftp.NewServer(readHandler, writeHandler)
 	s.SetTimeout(5 * time.Second)  // optional
-	s.SetAnticipate(true, 16)      /* senderAnticipate */
+	s.SetAnticipate(16)            /* senderAnticipate */
 	err := s.ListenAndServe(":69") // blocks until s.Shutdown() is called
 	if err != nil {
 		fmt.Fprintf(os.Stdout, "server: %v\n", err)
